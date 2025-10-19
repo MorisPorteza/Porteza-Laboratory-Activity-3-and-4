@@ -64,8 +64,8 @@ public class CoffeeShop {
         // 6. Show how many rewards each customer can redeem.
         Customer.getAllowedRewardsRedemption(joseph);
         Customer.getAllowedRewardsRedemption(peter);
-        Customer.getAllowedRewardsRedemption(diane);
         Customer.getAllowedRewardsRedemption(unknown);
+        Customer.getAllowedRewardsRedemption(diane);
     }
 }
 
@@ -89,3 +89,4 @@ public class CoffeeShop {
 // Text style generated using: https://boldtext.online/
 // Text art sourced from: https://emojicombos.com/coffee-text-art
 // Line art sourced from: https://emojicombos.com/border
+
