@@ -1,5 +1,7 @@
 public class CoffeeShop {
     public static void main(String[] args) {
+
+        System.out.println("✧═══════꒰ა 𝕻𝖔𝖗𝖙𝖊𝖟𝖆'𝖘 𝕭𝖊𝖆𝖓𝕭𝖗𝖊𝖜 𝕮𝖔𝖋𝖋𝖊𝖊 𝕾𝖍𝖔𝖕 ໒꒱═══════✧");
         
         // Create at least three Customer objects using a default constructor and parameterized constructor.
         // a. First customer has a name Joseph and has 200 points           
@@ -22,21 +24,21 @@ public class CoffeeShop {
         unknown.redeemReward();
         System.out.println();
 
-        // 4. Display each customer's information and total customers
+        // 4. Display each customer's information and the total number of customers.
         joseph.displayCustomerInfo();
         peter.displayCustomerInfo();
         unknown.displayCustomerInfo();
         Customer.displayTotalCustomers();
         System.out.println();
 
-        // 5. A fourth customer comes in (Diane)
+        // 5. A fourth customer named Diane comes in.
         Customer diane = new Customer("Diane");
         diane.addPoints(50);
         System.out.println("Diane earned 50 points. Total Points: " + diane.getPoints());
         Customer.displayTotalCustomers();
         System.out.println();
 
-        // 6. Show how many rewards each customer can redeem
+        // 6. Show how many rewards each customer can redeem.
         Customer.getAllowedRewardsRedemption(joseph);
         Customer.getAllowedRewardsRedemption(peter);
         Customer.getAllowedRewardsRedemption(diane);
@@ -63,3 +65,4 @@ public class CoffeeShop {
 
 // Text style generated using: https://boldtext.online/
 // Line art sourced from: https://emojicombos.com/border
+
