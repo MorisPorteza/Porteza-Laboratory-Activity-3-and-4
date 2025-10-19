@@ -58,6 +58,7 @@ public class CoffeeShop {
         Customer diane = new Customer("Diane");
         diane.addPoints(50);
         System.out.println("Diane earned 50 points. Total Points: " + diane.getPoints());
+        diane.displayCustomerInfo();
         Customer.displayTotalCustomers();
         System.out.println();
 
@@ -89,4 +90,5 @@ public class CoffeeShop {
 // Text style generated using: https://boldtext.online/
 // Text art sourced from: https://emojicombos.com/coffee-text-art
 // Line art sourced from: https://emojicombos.com/border
+
 
