@@ -48,7 +48,7 @@ public class CoffeeShop {
         System.out.println();
 
         // 4. Display each customer's information and the total number of customers.
-        System.out.println("ℭ𝔲𝔰𝔱𝔬𝔪𝔢𝔯 ℑ𝔫𝔣𝔬𝔯𝔪𝔞𝔱𝔦𝔬𝔫");
+        System.out.println("ᴄᴜꜱᴛᴏᴍᴇʀ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ\n");
         joseph.displayCustomerInfo();
         peter.displayCustomerInfo();
         unknown.displayCustomerInfo();
@@ -91,6 +91,7 @@ public class CoffeeShop {
 // Text style generated using: https://boldtext.online/
 // Text art sourced from: https://emojicombos.com/coffee-text-art
 // Line art sourced from: https://emojicombos.com/border
+
 
 
 
