@@ -7,7 +7,7 @@ public class Customer {
     // Static Variable
     private static int totalCustomers = 0;
 
-    // ===== Constructors =====
+    // ⋆⁺｡˚⋆˙‧₊☽ Constructors ☾₊‧˙⋆˚｡⁺⋆
     // Default Constructor
     public Customer() {
         this.name = "Unknown";
@@ -29,7 +29,7 @@ public class Customer {
         totalCustomers++;
     }
 
-    // ===== Instance Methods =====
+    // ⋆⁺｡˚⋆˙‧₊☽ Instance Methods ☾₊‧˙⋆˚｡⁺⋆
     public void addPoints(int earnedPoints) {
         this.points += earnedPoints;
     }
@@ -55,7 +55,7 @@ public class Customer {
         return points;
     }
 
-    // ===== Static Methods =====
+    // ⋆⁺｡˚⋆˙‧₊☽ Static Methods ☾₊‧˙⋆˚｡⁺⋆
     public static void displayTotalCustomers() {
         System.out.println("Total Registered Customers: " + totalCustomers);
     }
@@ -66,5 +66,21 @@ public class Customer {
     }
 }
 
+// Submitted by: Porteza, Moris L. (BSCS-2D)
 
-// Porteza, Moris L.
+// AI Prompt:
+// You are a junior Java developer for BeanBrew Coffee Shop, a café that wants to automate its customer rewards system. 
+// Every customer earns points for every purchase. When a customer reaches 100 points, they can redeem a free drink. 
+// The shop also wants to keep track of how many customers have registered in the system.
+// I will be giving six instructions one at a time throughout our conversation.
+// Carefully follow each one and gradually build the program step by step as new features are introduced.
+// The project should consist of two Java files: Customer.java and CoffeeShop.java.
+// Ensure that the code runs and compiles correctly after every update.
+// After completing each step, include a clear explanation of what was added and which Java concepts were applied.
+// Keep your explanations easy to follow and beginner-friendly, as if you’re teaching the basics of Java OOP.
+
+// AI Model: GPT-5 (ChatGPT)
+
+// Transaction ID: https://chatgpt.com/share/68f4f134-8e08-8013-b568-7f35ea3c789f
+
+// Line art sourced from: https://emojicombos.com/border
