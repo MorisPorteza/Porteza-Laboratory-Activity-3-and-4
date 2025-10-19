@@ -24,7 +24,7 @@ public class CoffeeShop {
         System.out.println("⠀⣿⡁⠀⠀⠀⠀⠀⠀⠈⢻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣾⡃⠀⠀⠀⠀⠀⠀⠀⡟⠀");
         System.out.println("⠀⠙⠻⣶⣀⠀⠀⠀⠀⠀⠀⠈⠙⠲⠦⣤⣄⣀⣀⣀⣤⣤⣾⣯⡵⠞⠋⠀⠀⠀⣀⠟⠀⠀⠀⠀");
         System.out.println("⠀⠀⠀⠀⠉⠛⠻⠿⠿⠶⠶⠤⠤⠤⣄⣀⣀⣀⣀⣀⣀⣀⣀⡠⠤⠤⠤⠴⠖⠉⠀⠀⠀⠀⠀⠀");
-        System.out.println("\n✧═══꒰ა 𝑷𝒐𝒓𝒕𝒆𝒛𝒂'𝒔 𝑩𝒆𝒂𝒏𝑩𝒓𝒆𝒘 𝑪𝒐𝒇𝒇𝒆𝒆 𝑺𝒉𝒐𝒑 ໒꒱═══✧");
+        System.out.println("\n✧══꒰ა 𝑷𝒐𝒓𝒕𝒆𝒛𝒂'𝒔 𝑩𝒆𝒂𝒏𝑩𝒓𝒆𝒘 𝑪𝒐𝒇𝒇𝒆𝒆 𝑺𝒉𝒐𝒑 ໒꒱══✧");
         
         // 1. Create at least three Customer objects using a default constructor and parameterized constructor.
         // a. First customer has a name Joseph and has 200 points           
@@ -72,7 +72,7 @@ public class CoffeeShop {
 // Submitted by: Porteza, Moris L. (BSCS-2D)
 
 // AI Prompt:
-// You are a junior Java developer for BeanBrew Coffee Shop, a café that wants to automate its customer rewards system. 
+// You are a junior Java developer for BeanBrew Coffee Shop, a café that wants to automate its customer rewards system.
 // Every customer earns points for every purchase. When a customer reaches 100 points, they can redeem a free drink. 
 // The shop also wants to keep track of how many customers have registered in the system.
 // I will be giving six instructions one at a time throughout our conversation.
