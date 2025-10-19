@@ -69,7 +69,7 @@ public class Customer {
 // Submitted by: Porteza, Moris L. (BSCS-2D)
 
 // AI Prompt:
-// You are a junior Java developer for BeanBrew Coffee Shop, a café that wants to automate its customer rewards system. 
+// You are a junior Java developer for BeanBrew Coffee Shop, a café that wants to automate its customer rewards system.
 // Every customer earns points for every purchase. When a customer reaches 100 points, they can redeem a free drink. 
 // The shop also wants to keep track of how many customers have registered in the system.
 // I will be giving six instructions one at a time throughout our conversation.
@@ -84,3 +84,4 @@ public class Customer {
 // Transaction ID: https://chatgpt.com/share/68f4f134-8e08-8013-b568-7f35ea3c789f
 
 // Line art sourced from: https://emojicombos.com/border
+
