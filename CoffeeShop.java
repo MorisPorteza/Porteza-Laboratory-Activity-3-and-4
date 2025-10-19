@@ -1,7 +1,5 @@
 public class CoffeeShop {
     public static void main(String[] args) {
-
-        System.out.println("✧═══════꒰ა 𝕻𝖔𝖗𝖙𝖊𝖟𝖆'𝖘 𝕭𝖊𝖆𝖓𝕭𝖗𝖊𝖜 𝕮𝖔𝖋𝖋𝖊𝖊 𝕾𝖍𝖔𝖕 ໒꒱═══════✧");
         System.out.println("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
         System.out.println("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
         System.out.println("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
@@ -26,8 +24,9 @@ public class CoffeeShop {
         System.out.println("⠀⣿⡁⠀⠀⠀⠀⠀⠀⠈⢻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣾⡃⠀⠀⠀⠀⠀⠀⠀⡟⠀");
         System.out.println("⠀⠙⠻⣶⣀⠀⠀⠀⠀⠀⠀⠈⠙⠲⠦⣤⣄⣀⣀⣀⣤⣤⣾⣯⡵⠞⠋⠀⠀⠀⣀⠟⠀⠀⠀⠀");
         System.out.println("⠀⠀⠀⠀⠉⠛⠻⠿⠿⠶⠶⠤⠤⠤⣄⣀⣀⣀⣀⣀⣀⣀⣀⡠⠤⠤⠤⠴⠖⠉⠀⠀⠀⠀⠀⠀");
+        System.out.println("\n✧═══꒰ა 𝑷𝒐𝒓𝒕𝒆𝒛𝒂'𝒔 𝑩𝒆𝒂𝒏𝑩𝒓𝒆𝒘 𝑪𝒐𝒇𝒇𝒆𝒆 𝑺𝒉𝒐𝒑 ໒꒱═══✧");
         
-        // Create at least three Customer objects using a default constructor and parameterized constructor.
+        // 1. Create at least three Customer objects using a default constructor and parameterized constructor.
         // a. First customer has a name Joseph and has 200 points           
         // b. Second customer is a new customer named Peter
         // c. Third customer is a new customer but did not leave any name
@@ -37,7 +36,7 @@ public class CoffeeShop {
 
         // 2. Peter earns points from transactions.
         peter.addPoints(200); // pastries and beverages
-        System.out.println("Peter earned 200 points. Total Points: " + peter.getPoints());
+        System.out.println("\nPeter earned 200 points. Total Points: " + peter.getPoints());
         peter.addPoints(20);  // water
         System.out.println("Peter earned 20 points. Total Points: " + peter.getPoints());
         System.out.println();
@@ -90,5 +89,3 @@ public class CoffeeShop {
 // Text style generated using: https://boldtext.online/
 // Text art sourced from: https://emojicombos.com/coffee-text-art
 // Line art sourced from: https://emojicombos.com/border
-
-
